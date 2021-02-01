@@ -4,14 +4,6 @@ This demo uses the Payment Button API provided by Blockonomics to receive Bitcoi
 
 ## Installing Guide
 
-<details open>
-<summary> Cloning Repository </summary>
-
-* `git clone https://github.com/AJ-54/Blockonomics_Payment_Button_Demo.git`
-* `cd Blockonomics_Payment_Button_Demo`
-
-</details>
-
 <details>
 <summary> Installing dependencies </summary>
 
