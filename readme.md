@@ -1,6 +1,6 @@
 # Blockonomics Payment Button API Demo in Laravel
 
-This demo uses the Payment Button API provided by Blockonomics to receive Bitcoin payments. It can be easily integrated with your online store. The video tutorial for this demo can be found [here]( https://www.youtube.com/watch?v=1sE2r5tDkNY).
+This demo uses the Payment Button API provided by Blockonomics to receive Bitcoin payments. It can be easily integrated with your online store. The video tutorial for this demo can be found [here](https://www.youtube.com/watch?v=IFjfkD3nRNE).
 
 ## Installing Guide
 
