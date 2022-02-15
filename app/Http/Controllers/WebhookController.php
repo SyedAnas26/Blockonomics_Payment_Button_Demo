@@ -11,15 +11,15 @@ class WebhookController extends Controller
 {
     public function handle(Request $request)
     {
-        $address = $request->addr;
+        $uuid = $request->uuid;
         $status = $request->status;
         error_log("Error Logs for  Webhook Handle");
-        error_log($address);
+        error_log($uuid);
         error_log($status);
 
         try{
             $client =  new Client();
-            $response = $client->get('https://www.blockonomics.co/api/merchant_order/'.$address,[
+            $response = $client->get('https://www.blockonomics.co/api/merchant_order/'.$uuid,[
                 'headers'=>['Authorization'=> 'Bearer '.env('Blockonomics_API','')],
             ]);
             $data = json_decode($response->getBody());
